@@ -1,7 +1,7 @@
 <h1>Library Database Project</h1>
 
 <p>In this project, my group was tasked with creating a database with views, triggers, functions and procedures. We decided to create a library database that keeps tracks of members and books in the library.</p
-<p>Running the database will require setting up a database and inserting the three files included in this folder. (Apologies for not having it hosted on a server.)</p>
+<p>Running the database will require setting up a database and inserting the three files included in this folder. (Sorry for not having it hosted on a server.)</p>
 <p> This project was completed, in a three person group, as part of the an Intelligent Systems module for college. Credit to Carla Warde, Cole Wallin for their work on the project.</p>
 
 <h2>Database Functions:</h2>
