@@ -2,7 +2,7 @@
 <h2>Info:</h2>
 <p><b>Title: </b>Clothes Shopping Application</p>
 <p><b>Description: </b>Allows users to view, filter and buy products using an android app</p>
-<p><b>Last Updated: </b>14/12/2020</p>
+<p><b>Last Updated: </b>21/04/2021</p>
 <p><b>Author(s): </b>Aine Reynolds, Carla Warde, Shelley Howarth, Vincent Kiely</p>
 <p><b>Utilised: </b>Java Android, Firebase, Junit, Espresso, SonarQube</p>
 
