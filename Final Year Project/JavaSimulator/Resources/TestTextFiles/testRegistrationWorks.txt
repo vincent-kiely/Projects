@@ -1,0 +1,10 @@
+fileName=testRegistrationWorks
+$containerColour=#302e2e
+$textColour=#FFFFFF
+$buttonColour=#3ded97
+$cancelColour=#f55676
+$pageTitle=Registration
+$pageDescription=Complete form to register your account
+$emailText=Please enter your email
+$passwordText1=Please enter your password
+$passwordText2=Please repeat your password

@@ -1,0 +1,9 @@
+fileName=DefaultLogin
+$containerColour=#302e2e
+$textColour=#ffffff
+$buttonColour=#3ded97
+$cancelColour=#f55676
+$pageTitle=Account Login
+$pageDescription=Complete this form to login to you account!
+$emailText=Enter your email here!
+$passwordText=Enter your password here!

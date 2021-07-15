@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box}
+        
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            display: inline-block;
+            border: none;
+            background: #ebebeb;
+        }
+
+        input[type=text]:focus, input[type=password]:focus {
+            background-color: #cfcfcf;
+            outline: none;
+        }
+
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background-color: #3ded97;
+            color: '#FFFFFF';
+            padding: 10px 15px;
+            margin: 8px 0 2px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity:0.8;
+        }
+
+        .cancelbtn {
+            padding: 10px 15px;
+            background-color: #f55676;
+        }
+
+        .cancelbtn, .signinbtn {
+            float: left;
+            width: 50%;
+        }
+
+        .container {
+            border: 2px solid #302e2e;
+            border-radius: 15px;
+            padding: 15px;
+            max-width: 500px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        @media screen and (max-width: 300px) {
+            .cancelbtn, .signupbtn {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <h1>Account Login</h1>
+            <p>Complete form to login to your account</p>
+            <hr>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Please enter your email " name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Please enter your password" name="psw" required>
+
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signinbtn">Login</button>
+            </div>
+        </div>
+    </body>
+</html>

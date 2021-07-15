@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+        font-family: ArialArial, Helvetica, sans-serif;
+        margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .slides {
+            display: none;
+        }
+
+        .slides img {
+            object-fit: cover;
+            height: 500px;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 15px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 13px;
+            padding: 6px 10px;
+            position: absolute;
+        }
+
+        .caption-container {
+            text-align: center;
+            background-color: #302e2e;
+            padding: 5px 20px;
+            color: white;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 20%;
+        }
+
+        .column img {
+            object-fit: cover;
+            height: 125px;
+        }
+
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+    </style>
+
+    <body>
+        <h2 style="text-align:center">Slideshow Gallery</h2>
+
+        <div class="container">
+			<div class='slides'>
+				<div class='numbertext'>1 / 5</div>
+				<img src=https://st2.depositphotos.com/1025323/6685/i/600/depositphotos_66850437-stock-photo-virtualization-of-cosmos.jpg style='width:100%'>
+			</div>
+
+			<div class='slides'>
+				<div class='numbertext'>2 / 5</div>
+				<img src=https://media.istockphoto.com/photos/road-in-mountains-picture-id491712724?k=6&m=491712724&s=612x612&w=0&h=4gNJyCwVlKpoWkfu5-9Gthe8C7DmRssIoZP-qp9jXG4= style='width:100%'>
+			</div>
+
+			<div class='slides'>
+				<div class='numbertext'>3 / 5</div>
+				<img src=https://media.istockphoto.com/photos/iceberg-picture-id1058767956?k=6&m=1058767956&s=612x612&w=0&h=Dy7IuXmKVUCUPMv_e_4QW3dmnQV5ldU6D6V5biqIeK8= style='width:100%'>
+			</div>
+
+			<div class='slides'>
+				<div class='numbertext'>4 / 5</div>
+				<img src=https://thumbs.dreamstime.com/b/web-182027161.jpg style='width:100%'>
+			</div>
+
+			<div class='slides'>
+				<div class='numbertext'>5 / 5</div>
+				<img src=https://media.istockphoto.com/photos/kilauea-volcanic-eruption-in-hawaii-picture-id969890388?k=6&m=969890388&s=612x612&w=0&h=-6E1kr59gVrRMd_KM1Spj7KKk29xwGEU2gMW1wS_DDM= style='width:100%'>
+			</div>
+        
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="row">
+				<div class='column'>
+					<img class='demo cursor' src=https://st2.depositphotos.com/1025323/6685/i/600/depositphotos_66850437-stock-photo-virtualization-of-cosmos.jpg style='width:100%' onclick='setCurrentSlide(1)' alt='1st Image'>
+				</div>
+				<div class='column'>
+					<img class='demo cursor' src=https://media.istockphoto.com/photos/road-in-mountains-picture-id491712724?k=6&m=491712724&s=612x612&w=0&h=4gNJyCwVlKpoWkfu5-9Gthe8C7DmRssIoZP-qp9jXG4= style='width:100%' onclick='setCurrentSlide(2)' alt='2nd Image'>
+				</div>
+				<div class='column'>
+					<img class='demo cursor' src=https://media.istockphoto.com/photos/iceberg-picture-id1058767956?k=6&m=1058767956&s=612x612&w=0&h=Dy7IuXmKVUCUPMv_e_4QW3dmnQV5ldU6D6V5biqIeK8= style='width:100%' onclick='setCurrentSlide(3)' alt='3rd Image'>
+				</div>
+				<div class='column'>
+					<img class='demo cursor' src=https://thumbs.dreamstime.com/b/web-182027161.jpg style='width:100%' onclick='setCurrentSlide(4)' alt='4th Image'>
+				</div>
+				<div class='column'>
+					<img class='demo cursor' src=https://media.istockphoto.com/photos/kilauea-volcanic-eruption-in-hawaii-picture-id969890388?k=6&m=969890388&s=612x612&w=0&h=-6E1kr59gVrRMd_KM1Spj7KKk29xwGEU2gMW1wS_DDM= style='width:100%' onclick='setCurrentSlide(5)' alt='5th Image'>
+				</div>
+            </div>
+        </div>
+
+        <script>
+            var slideNum = 1;
+            showSlides(slideNum);
+
+            function changeSlide(x) {
+                showSlides(slideNum += x);
+            }
+
+            function setCurrentSlide(x) {
+                showSlides(slideNum = x);
+            }
+
+            function showSlides(x) {
+                var slides = document.getElementsByClassName("slides");
+                var doc = document.getElementsByClassName("demo");
+                var caption = document.getElementById("caption");
+                if (x > slides.length) {
+                    slideNum = 1
+                }
+                if (x < 1) {
+                    slideNum = slides.length
+                }
+                for (var y = 0; y < slides.length; y++) {
+                    slides[y].style.display = "none";
+                }
+                for (var y = 0; y < doc.length; y++) {
+                    doc[y].className = doc[y].className.replace(" active", "");
+                }
+                slides[slideNum-1].style.display = "block";
+                doc[slideNum-1].className += " active";
+                caption.innerHTML = doc[slideNum-1].alt;
+            }
+        </script>     
+    </body>
+</html>

@@ -1,0 +1,15 @@
+fileName=DefaultImageGallery
+$title=Image Gallery
+$imageDesColour=#302e2e
+$img1=https://i.imgur.com/RYg5QNB.jpeg 
+$des1=The sea crashing over rocks
+$img2=https://i.imgur.com/LrWsMvR.jpg
+$des2=A bolt of lightning streaks the sky
+$img3=https://i.imgur.com/iJbBEyf.jpg
+$des3=A volcanic mountain range
+$img4=https://i.imgur.com/5OUSfJa.jpg
+$des4=Forest backed by a mountain
+$img5=https://i.imgur.com/SN086zQ.jpg
+$des5=Scenic picture of a lake
+$img6=https://i.imgur.com/O5D4yFg.jpg
+$des6=A river backed by snow capped mountains

@@ -1,0 +1,9 @@
+fileName=testLoginWorks
+$containerColour=#302e2e
+$textColour=#FFFFFF
+$buttonColour=#3ded97
+$cancelColour=#f55676
+$pageTitle=Account Login
+$pageDescription=Complete form to login to your account
+$emailText=Please enter your email 
+$passwordText=Please enter your password

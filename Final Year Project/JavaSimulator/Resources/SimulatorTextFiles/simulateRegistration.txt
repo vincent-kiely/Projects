@@ -1,0 +1,10 @@
+fileName=DefaultRegistration
+$containerColour=#302e2e
+$textColour=#ffffff
+$buttonColour=#3ded97
+$cancelColour=#f55676
+$pageTitle=Account Registration
+$pageDescription=Complete this form to register your account!
+$emailText=Enter you email here
+$passwordText1=Enter you password here
+$passwordText2=Re-enter your password here

@@ -1,0 +1,90 @@
+Apr 23, 2021 1:04:28 PM JavaSimulator.Simulator writeImageGallery
+INFO: Imgage Gallery simulation starting!
+Apr 23, 2021 1:04:28 PM JavaSimulator.propertiesReader <init>
+INFO: Filling Properties into Map
+Apr 23, 2021 1:04:28 PM JavaSimulator.Simulator makeMapFromFile
+INFO: Reading file simulateImageGallery.txt into Map!
+Apr 23, 2021 1:04:28 PM JavaSimulator.propertiesReader readValues
+INFO: Filling Properties into Map
+Apr 23, 2021 1:04:31 PM JavaSimulator.Simulator writeImageGallery
+INFO: Imgage Gallery simulation complete!
+
+Apr 23, 2021 1:09:15 PM JavaSimulator.Simulator writeImageGallery
+INFO: Imgage Gallery simulation starting!
+Apr 23, 2021 1:09:15 PM JavaSimulator.propertiesReader <init>
+INFO: Filling Properties into Map
+Apr 23, 2021 1:09:15 PM JavaSimulator.Simulator makeMapFromFile
+INFO: Reading file simulateImageGallery.txt into Map!
+Apr 23, 2021 1:09:15 PM JavaSimulator.propertiesReader readValues
+INFO: Filling Properties into Map
+Apr 23, 2021 1:09:15 PM JavaSimulator.propertiesReader checkHexcode
+WARNING: The value for $imageDesColour is not a valid Hexadecimal Colour
+Apr 23, 2021 1:09:15 PM JavaSimulator.propertiesReader checkHexcode
+INFO: As such, the simulator shall use the default value for $imageDesColour in the simulation
+Apr 23, 2021 1:09:16 PM JavaSimulator.Simulator writeImageGallery
+INFO: Imgage Gallery simulation complete!
+
+Apr 23, 2021 1:10:42 PM JavaSimulator.Simulator writeImageGallery
+INFO: Imgage Gallery simulation starting!
+Apr 23, 2021 1:10:42 PM JavaSimulator.propertiesReader <init>
+INFO: Filling Properties into Map
+Apr 23, 2021 1:10:42 PM JavaSimulator.Simulator makeMapFromFile
+INFO: Reading file fileName=DefaultImageGallery into Map!
+Apr 23, 2021 1:10:42 PM JavaSimulator.Simulator writeImageGallery
+INFO: Imgage Gallery simulation complete!
+
+Apr 23, 2021 1:11:10 PM JavaSimulator.Simulator writeImageGallery
+INFO: Imgage Gallery simulation starting!
+Apr 23, 2021 1:11:10 PM JavaSimulator.propertiesReader <init>
+INFO: Filling Properties into Map
+Apr 23, 2021 1:11:10 PM JavaSimulator.Simulator makeMapFromFile
+INFO: Reading file simulateImageGallery.txt into Map!
+Apr 23, 2021 1:11:10 PM JavaSimulator.propertiesReader readValues
+INFO: Filling Properties into Map
+Apr 23, 2021 1:11:14 PM JavaSimulator.Simulator writeImageGallery
+INFO: Imgage Gallery simulation complete!
+
+Apr 23, 2021 1:15:14 PM JavaSimulator.Simulator writeLogin
+INFO: Login form simulation starting!
+Apr 23, 2021 1:15:14 PM JavaSimulator.propertiesReader <init>
+INFO: Filling Properties into Map
+Apr 23, 2021 1:15:14 PM JavaSimulator.Simulator makeMapFromFile
+INFO: Reading file simulateLogin.txt into Map!
+Apr 23, 2021 1:15:14 PM JavaSimulator.propertiesReader readValues
+INFO: Filling Properties into Map
+Apr 23, 2021 1:15:14 PM JavaSimulator.Simulator writeLogin
+INFO: Login form simulation complete!
+
+Apr 23, 2021 1:18:27 PM JavaSimulator.Simulator writeRegistration
+INFO: Registration form simulation starting!
+Apr 23, 2021 1:18:27 PM JavaSimulator.propertiesReader <init>
+INFO: Filling Properties into Map
+Apr 23, 2021 1:18:27 PM JavaSimulator.Simulator makeMapFromFile
+INFO: Reading file simulateRegistration.txt into Map!
+Apr 23, 2021 1:18:27 PM JavaSimulator.propertiesReader readValues
+INFO: Filling Properties into Map
+Apr 23, 2021 1:18:27 PM JavaSimulator.Simulator writeRegistration
+INFO: Registration form simulation complete!
+
+Apr 23, 2021 1:21:13 PM JavaSimulator.Simulator writeRegistration
+INFO: Registration form simulation starting!
+Apr 23, 2021 1:21:13 PM JavaSimulator.propertiesReader <init>
+INFO: Filling Properties into Map
+Apr 23, 2021 1:21:13 PM JavaSimulator.Simulator makeMapFromFile
+INFO: Reading file simulateRegistration.txt into Map!
+Apr 23, 2021 1:21:13 PM JavaSimulator.propertiesReader readValues
+INFO: Filling Properties into Map
+Apr 23, 2021 1:21:13 PM JavaSimulator.Simulator writeRegistration
+INFO: Registration form simulation complete!
+
+Apr 23, 2021 1:23:28 PM JavaSimulator.Simulator writeSocialMediaLinks
+INFO: Social Media Sharing form simulation starting!
+Apr 23, 2021 1:23:28 PM JavaSimulator.propertiesReader <init>
+INFO: Filling Properties into Map
+Apr 23, 2021 1:23:28 PM JavaSimulator.Simulator makeMapFromFile
+INFO: Reading file simulateSocialMediaLinks.txt into Map!
+Apr 23, 2021 1:23:28 PM JavaSimulator.propertiesReader readValues
+INFO: Filling Properties into Map
+Apr 23, 2021 1:23:28 PM JavaSimulator.Simulator writeSocialMediaLinks
+INFO: Social Media Sharing form simulation complete!
+

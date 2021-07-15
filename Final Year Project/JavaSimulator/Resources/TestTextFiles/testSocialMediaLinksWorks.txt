@@ -1,0 +1,8 @@
+fileName=testSocialMediaLinksWorks
+$containerColour=#302e2e
+$title=Find us on these websites!
+$link1=https://www.facebook.com/
+$link2=https://www.twitter.com/
+$link3=https://www.linkedin.com/
+$link4=https://www.instagram.com/
+$link5=https://www.youtube.com/
