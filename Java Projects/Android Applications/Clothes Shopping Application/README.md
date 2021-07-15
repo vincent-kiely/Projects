@@ -15,13 +15,15 @@
 
 <h2>Use Cases</h2>
 <ul>
-<li>User can view the products divided by type - Clothes, Shoes and Accessories</li>
-<li>User can filter products</li>
-<li>User can add products to their cart</li>
-<li>User can log in or create an account</li>
-<li>Registered users can checkout their products</li>
-<li>Registered users can view all their orders</li>
+  <li>User can view the products divided by type - Clothes, Shoes and Accessories</li>
+  <li>User can filter products</li>
+  <li>User can add products to their cart</li>
+  <li>User can log in or create an account</li>
+  <li>Registered users can checkout their products</li>
+  <li>Registered users can view all their orders</li>
 </ul>
 
 <h2>Gradle File</h2>
-<li>The build.gradle file has been included in this repo as it contains a section of code through which we implemented SonarQube</li>
+<ul>
+  <li>The build.gradle file has been included in this repo as it contains a section of code through which we implemented SonarQube</li>
+</ul>
