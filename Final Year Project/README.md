@@ -1,4 +1,4 @@
-# Vincent Kiely Final Year Project
+# Vincent Kiely - Final Year Project
 
 <h2>Project Info:</h2>
 <p><b>Title: </b>Website Feature Simulator</p>
