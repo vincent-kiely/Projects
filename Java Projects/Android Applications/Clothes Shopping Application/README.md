@@ -11,6 +11,7 @@
   <li>Clone the code from this repo.</li>
   <li>Open as project in android studio</li>
   <li>Run on Pixel 3a Api 27 emulator</li>
+</ol>
 
 <h2>Use Cases</h2>
 <ul>
@@ -21,3 +22,6 @@
 <li>Registered users can checkout their products</li>
 <li>Registered users can view all their orders</li>
 </ul>
+
+<h2>Gradle File</h2>
+<li>The build.gradle file has been included in this repo as it contains a section of code through which we implemented SonarQube</li>
